@@ -4,7 +4,7 @@ delphe
 DatabasE Links for Population, Health and Envrionmental Scientists.
 
 ```{r}
-# install.packages("devtools")
-library(devtools)
-install_github("delphe")
+if(!require(devtools)) install.packages("devtools"); require(devtools)
+install_github("delphe", "ivanhanigan")
+require(delphe)
 ```
