@@ -1,6 +1,6 @@
 exportPattern("^[[:alpha:]]+")
 exportPattern("^[^\\.]")
-# import(RJDBC, RPostgreSQL, rgdal, tcltk)
+import(RJDBC, RPostgreSQL, rgdal, tcltk)
 #install.packages('RJDBC')
 #install.packages('RPostgreSQL')
 #install.packages('rgdal')
