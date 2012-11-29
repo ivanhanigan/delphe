@@ -29,10 +29,10 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 \references{
 
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
+
 \keyword{ package }
 \seealso{
 
 }
-\examples{connect2postgres()
+\examples{# connect2postgres()
 }

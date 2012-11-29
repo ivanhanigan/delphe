@@ -45,7 +45,7 @@ lsos(..., n = 10)
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-\examples{lsos()
+\examples{# lsos()
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

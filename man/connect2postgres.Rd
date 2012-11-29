@@ -58,13 +58,6 @@ connect2postgres(hostip = NA, db = NA, user = NA, p = NA, os = "linux", pgutils 
 }
 \examples{
 
-# check of postgres version
-# won't run
-# ch <- connect2postgres(hostip = NA, db = NA, user = NA, p = NA, os = "linux", 
-#    pgutils = c("/home/ivan/tools/jdbc", "c:/pgutils"))
-# dbGetQuery('select version()')
-
-
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
