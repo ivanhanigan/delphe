@@ -9,4 +9,4 @@ install_github("delphe", "ivanhanigan")
 require(delphe)
 ```
 
-Note: Windows users have to first install [http://cran.r-project.org/bin/windows/Rtools/][Rtools].
+Note: Windows users have to first install [Rtools](http://cran.r-project.org/bin/windows/Rtools/).
