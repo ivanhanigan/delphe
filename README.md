@@ -8,3 +8,4 @@ if(!require(devtools)) install.packages("devtools"); require(devtools)
 install_github("delphe", "ivanhanigan")
 require(delphe)
 ```
+Note: Windows users have to first install [[Rtools][http://cran.r-project.org/bin/windows/Rtools/]].
