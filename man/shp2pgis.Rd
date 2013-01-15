@@ -14,7 +14,7 @@ shp2pgis(infile,d='postgis',u='postgres',host='localhost',srid=4283,schema='publ
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{infile}{
-the name of the shapefile
+the name of the shapefile (without any extension)
 }
   \item{d}{
 the name of the database
@@ -32,7 +32,7 @@ the projection
 
 }
   \item{pgutils}{
-where are your postgres utilities
+where are your postgres utilities if not on path (defaults to windows)
 }
 }
 \details{
@@ -62,7 +62,7 @@ Joe Guillaume, ivanhanigan
 }
 \examples{
 
-
+shp2pgis(infile='tassla01.shp', d='ewedb',u='gislibrary',host='115.146.84.209', schema='abs_sla',os='linux')
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
