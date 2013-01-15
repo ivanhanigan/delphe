@@ -62,7 +62,12 @@ Joe Guillaume, ivanhanigan
 }
 \examples{
 
-shp2pgis(infile='tassla01.shp', d='ewedb',u='gislibrary',host='115.146.84.209', schema='abs_sla',os='linux')
+# ABS spatial units are available at http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1259.0.30.0022006?OpenDocument
+# the following file is 44.2Mb
+
+download.file("http://www.abs.gov.au/AUSSTATS/subscriber.nsf/log?openagent&1259030002_sla06aaust_shape.zip&1259.0.30.002&Data\%20Cubes&18E90A962EFD4D7ECA25795D00244F5A&0&2006&06.12.2011&Previous", "SLA06.zip", mode = "wb")
+unzip('SLA06.zip',junkpaths=T)
+shp2pgis(infile='SLA06aAUST', d='ewedb',u='gislibrary',host='115.146.84.209', schema='abs_sla',os='linux')
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
